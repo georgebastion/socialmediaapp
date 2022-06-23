@@ -1,8 +1,9 @@
 import express, { response } from 'express';
 const router = express.Router();
-import {getPosts, createPost, updatePost, deletePost, likePost } from '../controllers/post.js'
+import {getPosts, getPostsBySearch, createPost, updatePost, deletePost, likePost } from '../controllers/post.js'
 import auth from '../middleware/auth.js';
 
+router.get('/search', getPostsBySearch);
 router.get('/', getPosts);
 router.post('/', auth, createPost);
 router.patch('/:id', auth, updatePost);
