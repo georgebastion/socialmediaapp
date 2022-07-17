@@ -1,4 +1,4 @@
-##Fullstack MERN Application
+## Fullstack MERN Application
 
 #This project utilizes React, Express, MongoDB and Node to create a fullstack social media application.
 
