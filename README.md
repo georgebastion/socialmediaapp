@@ -8,4 +8,4 @@
 
 #REST API 
 
-![](https://github.com/georgebastion/georgebastion/blob/main/Bastion.png
+![](https://github.com/georgebastion/socialmediaapp/blob/main/mern.png)
